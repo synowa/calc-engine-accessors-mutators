@@ -1,10 +1,10 @@
 package com.synowa.calcengineaccessorsmutators;
 
 public class MathEquation {
-    public double leftVal;
-    public double rightVal;
-    public char opCode;
-    public double result;
+    private double leftVal;
+    private double rightVal;
+    private char opCode;
+    private double result;
 
     public double getLeftVal() {return leftVal;}
     public void setLeftVal(double leftVal) {this.leftVal = leftVal;}
